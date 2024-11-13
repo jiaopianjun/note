@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Css知识点汇总 | 氧气的知识库</title>
+    <meta name="generator" content="VuePress 1.9.10">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="description" content="hello">
+    <meta name="keywords" content="super duper SEO">
+    
+    <link rel="preload" href="/assets/css/0.styles.fc1b8f84.css" as="style"><link rel="preload" href="/assets/js/app.7e99d4b7.js" as="script"><link rel="preload" href="/assets/js/2.8c310171.js" as="script"><link rel="preload" href="/assets/js/1.99cb381e.js" as="script"><link rel="preload" href="/assets/js/23.b5a85e1f.js" as="script"><link rel="prefetch" href="/assets/js/10.c51f8531.js"><link rel="prefetch" href="/assets/js/11.a7bbbaec.js"><link rel="prefetch" href="/assets/js/12.68e33b1e.js"><link rel="prefetch" href="/assets/js/13.e3a7e229.js"><link rel="prefetch" href="/assets/js/14.e81cf771.js"><link rel="prefetch" href="/assets/js/15.0050cdd3.js"><link rel="prefetch" href="/assets/js/16.64c7e26e.js"><link rel="prefetch" href="/assets/js/17.59e28915.js"><link rel="prefetch" href="/assets/js/18.bf7a3294.js"><link rel="prefetch" href="/assets/js/19.7064d0e2.js"><link rel="prefetch" href="/assets/js/20.42a62792.js"><link rel="prefetch" href="/assets/js/21.6476295b.js"><link rel="prefetch" href="/assets/js/22.495cf2ef.js"><link rel="prefetch" href="/assets/js/24.acd383fb.js"><link rel="prefetch" href="/assets/js/25.d2ababe0.js"><link rel="prefetch" href="/assets/js/26.bc15591b.js"><link rel="prefetch" href="/assets/js/27.55239465.js"><link rel="prefetch" href="/assets/js/28.763a45c7.js"><link rel="prefetch" href="/assets/js/29.a050361c.js"><link rel="prefetch" href="/assets/js/3.ff3a40b5.js"><link rel="prefetch" href="/assets/js/30.b27e7285.js"><link rel="prefetch" href="/assets/js/31.7452bc2c.js"><link rel="prefetch" href="/assets/js/32.6238042e.js"><link rel="prefetch" href="/assets/js/33.0fea7793.js"><link rel="prefetch" href="/assets/js/34.3587839b.js"><link rel="prefetch" href="/assets/js/35.0e95a5b6.js"><link rel="prefetch" href="/assets/js/36.ed0e3728.js"><link rel="prefetch" href="/assets/js/37.abd5d1e3.js"><link rel="prefetch" href="/assets/js/38.f598ea36.js"><link rel="prefetch" href="/assets/js/4.fd03fa6f.js"><link rel="prefetch" href="/assets/js/5.b1717112.js"><link rel="prefetch" href="/assets/js/6.9b212e10.js"><link rel="prefetch" href="/assets/js/7.789d874c.js"><link rel="prefetch" href="/assets/js/vendors~docsearch.8b826ef6.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.fc1b8f84.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">氧气的知识库</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="https://cuixinxin.cn" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  我的博客
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://github.com/jiaopianjun" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="我在这里" class="dropdown-title"><span class="title">我在这里</span> <span class="arrow down"></span></button> <button type="button" aria-label="我在这里" class="mobile-dropdown-title"><span class="title">我在这里</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://segmentfault.com/u/jiaopianjun" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  思否
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://juejin.im/user/576b77cc5bbb5000594262f1" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  掘金
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://www.zhihu.com/people/jiaopian" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  知乎
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://home.cnblogs.com/u/lieone/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  博客园
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="https://cuixinxin.cn" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  我的博客
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://github.com/jiaopianjun" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="我在这里" class="dropdown-title"><span class="title">我在这里</span> <span class="arrow down"></span></button> <button type="button" aria-label="我在这里" class="mobile-dropdown-title"><span class="title">我在这里</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://segmentfault.com/u/jiaopianjun" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  思否
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://juejin.im/user/576b77cc5bbb5000594262f1" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  掘金
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://www.zhihu.com/people/jiaopian" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  知乎
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://home.cnblogs.com/u/lieone/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  博客园
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Css知识点汇总</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/css/#css知识点汇总" class="sidebar-link">Css知识点汇总</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/css/#_1-css选择器及其优先级" class="sidebar-link">1. CSS选择器及其优先级？</a></li><li class="sidebar-sub-header"><a href="/css/#_2-css中可继承与不可继承属性有哪些" class="sidebar-link">2. CSS中可继承与不可继承属性有哪些?</a></li><li class="sidebar-sub-header"><a href="/css/#_3-display的属性值及其作用" class="sidebar-link">3. display的属性值及其作用？</a></li><li class="sidebar-sub-header"><a href="/css/#_4-display的block、inline和inline-block的区别" class="sidebar-link">4. display的block、inline和inline-block的区别？</a></li><li class="sidebar-sub-header"><a href="/css/#_5-隐藏元素的方法有哪些" class="sidebar-link">5. 隐藏元素的方法有哪些？</a></li><li class="sidebar-sub-header"><a href="/css/#_6-link和-import的区别" class="sidebar-link">6. link和@import的区别？</a></li><li class="sidebar-sub-header"><a href="/css/#_7-transition和animation的区别" class="sidebar-link">7. transition和animation的区别</a></li><li class="sidebar-sub-header"><a href="/css/#_8-display-none与visibility-hidden的区别" class="sidebar-link">8. display:none与visibility:hidden的区别</a></li><li class="sidebar-sub-header"><a href="/css/#_9-伪元素和伪类的区别和作用" class="sidebar-link">9. 伪元素和伪类的区别和作用？</a></li><li class="sidebar-sub-header"><a href="/css/#_10-对requestanimationframe的理解" class="sidebar-link">10. 对requestAnimationframe的理解？</a></li><li class="sidebar-sub-header"><a href="/css/#_11-对盒模型的理解" class="sidebar-link">11. 对盒模型的理解</a></li><li class="sidebar-sub-header"><a href="/css/#_12-为什么有时候用translate来改变位置而不是定位" class="sidebar-link">12. 为什么有时候⽤translate来改变位置⽽不是定位？</a></li><li class="sidebar-sub-header"><a href="/css/#_13-li-与-li-之间有看不见的空白间隔是什么原因引起的-如何解决" class="sidebar-link">13. li 与 li 之间有看不见的空白间隔是什么原因引起的？如何解决？</a></li><li class="sidebar-sub-header"><a href="/css/#_14-css3中有哪些新特性" class="sidebar-link">14. CSS3中有哪些新特性？</a></li><li class="sidebar-sub-header"><a href="/css/#_15-对-csssprites-的理解" class="sidebar-link">15. 对 CSSSprites 的理解</a></li><li class="sidebar-sub-header"><a href="/css/#_16-css-优化和提高性能的方法有哪些" class="sidebar-link">16. CSS 优化和提高性能的方法有哪些？</a></li><li class="sidebar-sub-header"><a href="/css/#_17-css预处理器-后处理器是什么-为什么要使用它们" class="sidebar-link">17.CSS预处理器/后处理器是什么？为什么要使用它们？</a></li><li class="sidebar-sub-header"><a href="/css/#_18-before-和-after-的双冒号和单冒号有什么区别" class="sidebar-link">18.::before 和 :after 的双冒号和单冒号有什么区别？</a></li><li class="sidebar-sub-header"><a href="/css/#_19-display-inline-block-什么时候会显示间隙" class="sidebar-link">19.display:inline-block 什么时候会显示间隙？</a></li><li class="sidebar-sub-header"><a href="/css/#_20-对-css-工程化的理解" class="sidebar-link">20.对 CSS 工程化的理解？</a></li><li class="sidebar-sub-header"><a href="/css/#_21-如何判断元素是否到达可视区域" class="sidebar-link">21. 如何判断元素是否到达可视区域</a></li><li class="sidebar-sub-header"><a href="/css/#_22-z-index属性在什么情况下会失效" class="sidebar-link">22. z-index属性在什么情况下会失效</a></li><li class="sidebar-sub-header"><a href="/css/#_23-px、em、rem的区别及使用场景" class="sidebar-link">23. px、em、rem的区别及使用场景</a></li><li class="sidebar-sub-header"><a href="/css/#_24-如何根据设计稿进行移动端适配" class="sidebar-link">24. 如何根据设计稿进行移动端适配？</a></li><li class="sidebar-sub-header"><a href="/css/#_25-对flex布局的理解及其使用场景" class="sidebar-link">25. 对Flex布局的理解及其使用场景</a></li><li class="sidebar-sub-header"><a href="/css/#_26-响应式设计的概念及基本原理" class="sidebar-link">26. 响应式设计的概念及基本原理</a></li><li class="sidebar-sub-header"><a href="/css/#_27-为什么需要清除浮动-清除浮动的方式" class="sidebar-link">27. 为什么需要清除浮动？清除浮动的方式</a></li><li class="sidebar-sub-header"><a href="/css/#_28-对bfc的理解-如何创建bfc" class="sidebar-link">28.  对BFC的理解，如何创建BFC</a></li><li class="sidebar-sub-header"><a href="/css/#_29-什么是margin重叠问题-如何解决" class="sidebar-link">29. 什么是margin重叠问题？如何解决？</a></li><li class="sidebar-sub-header"><a href="/css/#_30-display-none与visibility-hidden的区别" class="sidebar-link">30. display:none与visibility：hidden的区别？</a></li><li class="sidebar-sub-header"><a href="/css/#_31-css优化、提高性能的方法有哪些" class="sidebar-link">31. CSS优化、提高性能的方法有哪些？</a></li><li class="sidebar-sub-header"><a href="/css/#_32-浏览器是怎样解析css选择器的" class="sidebar-link">32. 浏览器是怎样解析CSS选择器的？</a></li><li class="sidebar-sub-header"><a href="/css/#_33-让页面里的字体变清晰-变细用css怎么做" class="sidebar-link">33. 让页面里的字体变清晰，变细用CSS怎么做？</a></li><li class="sidebar-sub-header"><a href="/css/#_34-position-fixed-在android下无效怎么处理" class="sidebar-link">34. position:fixed;在android下无效怎么处理？</a></li><li class="sidebar-sub-header"><a href="/css/#_35-如果需要手动写动画-你认为最小时间间隔是多久-为什么" class="sidebar-link">35. 如果需要手动写动画，你认为最小时间间隔是多久，为什么？</a></li><li class="sidebar-sub-header"><a href="/css/#_36-style标签写在body后与body前有什么区别" class="sidebar-link">36. style标签写在body后与body前有什么区别？</a></li><li class="sidebar-sub-header"><a href="/css/#_37-如何防止css阻塞渲染" class="sidebar-link">37. 如何防止CSS阻塞渲染</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="css知识点汇总"><a href="#css知识点汇总" class="header-anchor">#</a> Css知识点汇总</h2> <div><h3 id="_1-css选择器及其优先级"><a href="#_1-css选择器及其优先级" class="header-anchor">#</a> 1. CSS选择器及其优先级？</h3> <details><summary>点击查看答案</summary> <blockquote>
+    id选择器 &gt; 类选择器 &gt; 属性选择器 &gt; 伪类选择器 &gt; 标签选择器 &gt; 伪元素选择器 &gt; 相邻兄弟选择器 &gt; 子选择器 &gt; 后代选择器 &gt; 通配符选择器
+  </blockquote> <p></p><div class="language- extra-class"><pre><code>  !important声明的样式的优先级最高；
+
+  如果优先级相同，则最后出现的样式生效；
+
+  继承得到的样式的优先级最低；
+
+  通用选择器（*）、子选择器（&gt;）和相邻同胞选择器（+）并不在这四个等级中，所以它们的权值都为 0 ；
+
+  样式表的来源不同时，优先级顺序为：内联样式 &gt; 内部样式 &gt; 外部样式 &gt; 浏览器用户自定义样式 &gt; 浏览器默认样式。
+</code></pre></div> <p></p></details></div> <div><h3 id="_2-css中可继承与不可继承属性有哪些"><a href="#_2-css中可继承与不可继承属性有哪些" class="header-anchor">#</a> 2. CSS中可继承与不可继承属性有哪些?</h3> <details><summary>点击查看答案</summary> <blockquote>
+     一、无继承性的属性
+  </blockquote> <p></p><div class="language- extra-class"><pre><code>display：规定元素应该生成的框的类型
+
+文本属性：
+
+vertical-align：垂直文本对齐
+text-decoration：规定添加到文本的装饰
+text-shadow：文本阴影效果
+white-space：空白符的处理
+unicode-bidi：设置文本的方向
+
+盒子模型的属性：width、height、margin、border、padding
+背景属性：background、background-color、background-image、background-repeat、background-position、background-attachment
+定位属性：float、clear、position、top、right、bottom、left、min-width、min-height、max-width、max-height、overflow、clip、z-index
+生成内容属性：content、counter-reset、counter-increment
+轮廓样式属性：outline-style、outline-width、outline-color、outline
+页面样式属性：size、page-break-before、page-break-after
+声音样式属性：pause-before、pause-after、pause、cue-before、cue-after、cue、play-during
+</code></pre></div> <p></p> <blockquote>
+  二、有继承性的属性
+</blockquote> <p></p><div class="language- extra-class"><pre><code>1、字体系列属性
+
+  font-family：字体系列
+  font-weight：字体的粗细
+  font-size：字体的大小
+  font-style：字体的风格
+
+2、文本系列属性
+
+  text-indent：文本缩进
+  text-align：文本水平对齐
+  line-height：行高
+  word-spacing：单词之间的间距
+  letter-spacing：中文或者字母之间的间距
+  text-transform：控制文本大小写（就是uppercase、lowercase、capitalize这三个）
+  color：文本颜色
+
+3、元素可见性
+
+  visibility：控制元素显示隐藏
+
+4、列表布局属性
+
+  list-style：列表风格，包括list-style-type、list-style-image等
+
+5、光标属性
+
+  cursor：光标显示为何种形态
+</code></pre></div> <p></p></details></div> <div><h3 id="_3-display的属性值及其作用"><a href="#_3-display的属性值及其作用" class="header-anchor">#</a> 3. display的属性值及其作用？</h3> <details><summary>点击查看答案</summary> <p></p><div class="language- extra-class"><pre><code>  none元素不显示，并且会从文档流中移除。
+
+  block块类型。默认宽度为父元素宽度，可设置宽高，换行显示。
+  
+  inline行内元素类型。默认宽度为内容宽度，不可设置宽高，同行显示。
+  
+  inline-block默认宽度为内容宽度，可以设置宽高，同行显示。
+  
+  list-item像块类型元素一样显示，并添加样式列表标记。
+  
+  table此元素会作为块级表格来显示。
+  
+  inherit规定应该从父元素继承display属性的值。
+</code></pre></div> <p></p></details></div> <div><h3 id="_4-display的block、inline和inline-block的区别"><a href="#_4-display的block、inline和inline-block的区别" class="header-anchor">#</a> 4. display的block、inline和inline-block的区别？</h3> <details><summary>点击查看答案</summary> <p>
+    1）block： 会独占一行，多个元素会另起一行，可以设置width、height、margin和padding属性；
+  </p> <p>
+    2）inline： 元素不会独占一行，设置width、height属性无效。但可以设置水平方向的margin和padding属性，不能设置垂直方向的padding和margin；
+  </p> <p>
+    3）inline-block： 将对象设置为inline对象，但对象的内容作为block对象呈现，之后的内联对象会被排列在同一行内。
+  </p></details></div> <div><h3 id="_5-隐藏元素的方法有哪些"><a href="#_5-隐藏元素的方法有哪些" class="header-anchor">#</a> 5. 隐藏元素的方法有哪些？</h3> <details><summary>点击查看答案</summary> <p></p><div class="language- extra-class"><pre><code>display: none：渲染树不会包含该渲染对象，因此该元素不会在页面中占据位置，也不会响应绑定的监听事件。
+visibility: hidden：元素在页面中仍占据空间，但是不会响应绑定的监听事件。
+opacity: 0：将元素的透明度设置为 0，以此来实现元素的隐藏。元素在页面中仍然占据空间，并且能够响应元素绑定的监听事件。
+position: absolute：通过使用绝对定位将元素移除可视区域内，以此来实现元素的隐藏。
+z-index: 负值：来使其他元素遮盖住该元素，以此来实现隐藏。
+clip/clip-path ：使用元素裁剪的方法来实现元素的隐藏，这种方法下，元素仍在页面中占据位置，但是不会响应绑定的监听事件。
+transform: scale(0,0)：将元素缩放为 0，来实现元素的隐藏。这种方法下，元素仍在页面中占据位置，但是不会响应绑定的监听事件。
+</code></pre></div> <p></p></details></div> <div><h3 id="_6-link和-import的区别"><a href="#_6-link和-import的区别" class="header-anchor">#</a> 6. link和@import的区别？</h3> <details><summary>点击查看答案</summary> <p></p><div class="language- extra-class"><pre><code>link是XHTML标签，除了加载CSS外，还可以定义RSS等其他事务；@import属于CSS范畴，只能加载CSS。
+link引用CSS时，在页面载入时同时加载；@import需要页面网页完全载入以后加载。
+link是XHTML标签，无兼容问题；@import是在CSS2.1提出的，低版本的浏览器不支持。
+link支持使用Javascript控制DOM去改变样式；而@import不支持。
+</code></pre></div> <p></p></details></div> <div><h3 id="_7-transition和animation的区别"><a href="#_7-transition和animation的区别" class="header-anchor">#</a> 7. transition和animation的区别</h3> <details><summary>点击查看答案</summary> <p></p><div class="language- extra-class"><pre><code>transition是过度属性，强调过度，它的实现需要触发一个事件（比如鼠标移动上去，焦点，点击等）才执行动画。它类似于flash的补间动画，设置一个开始关键帧，一个结束关键帧。
+
+animation是动画属性，它的实现不需要触发事件，设定好时间之后可以自己执行，且可以循环一个动画。它也类似于flash的补间动画，但是它可以设置多个关键帧（用@keyframe定义）完成动画。
+</code></pre></div> <p></p></details></div> <div><h3 id="_8-display-none与visibility-hidden的区别"><a href="#_8-display-none与visibility-hidden的区别" class="header-anchor">#</a> 8. display:none与visibility:hidden的区别</h3> <details><summary>点击查看答案</summary> <p></p><div class="language- extra-class"><pre><code>1）在渲染树中
+
+display:none会让元素完全从渲染树中消失，渲染时不会占据任何空间；
+
+visibility:hidden不会让元素从渲染树中消失，渲染的元素还会占据相应的空间，只是内容不可见。
+</code></pre></div> <p></p> <p></p><div class="language- extra-class"><pre><code>2）是否是继承属性
+
+display:none是非继承属性，子孙节点会随着父节点从渲染树消失，通过修改子孙节点的属性也无法显示；
+
+visibility:hidden是继承属性，子孙节点消失是由于继承了hidden，通过设置visibility:visible可以让子孙节点显示；
+</code></pre></div> <p></p> <p></p><div class="language- extra-class"><pre><code>3）修改常规文档流中元素的 display 通常会造成文档的重排，但是修改visibility属性只会造成本元素的重绘；
+</code></pre></div> <p></p> <p></p><div class="language- extra-class"><pre><code>4）如果使用读屏器，设置为display:none的内容不会被读取，设置为visibility:hidden的内容会被读取。
+</code></pre></div> <p></p></details></div> <div><h3 id="_9-伪元素和伪类的区别和作用"><a href="#_9-伪元素和伪类的区别和作用" class="header-anchor">#</a> 9. 伪元素和伪类的区别和作用？</h3> <details><summary>点击查看答案</summary> <blockquote>
+    伪元素：在内容元素的前后插入额外的元素或样式，但是这些元素实际上并不在文档中生成。它们只在外部显示可见，但不会在文档的源代码中找到它们，因此，称为“伪”元素。
+  </blockquote> <blockquote>
+    伪类：将特殊的效果添加到特定选择器上。它是已有元素上添加类别的，不会产生新的元素。
+  </blockquote></details></div> <div><h3 id="_10-对requestanimationframe的理解"><a href="#_10-对requestanimationframe的理解" class="header-anchor">#</a> 10. 对requestAnimationframe的理解？</h3> <details><summary>点击查看答案</summary> <blockquote>
+    window.requestAnimationFrame() 告诉浏览器——你希望执行一个动画，并且要求浏览器在下次重绘之前调用指定的回调函数更新动画。该方法需要传入一个回调函数作为参数，该回调函数会在浏览器下一次重绘之前执行。
+  </blockquote> <blockquote>
+    优点：CPU节能，函数节流，减少DOM操作，灵活性较高，与屏幕刷新同步，能够在页面不可见的时候自动暂停可以更颗粒化的控制。
+  </blockquote> <blockquote>
+    缺点：代码可能会更为复杂，浏览器兼容性差。
+  </blockquote> <blockquote>
+    与 CSS 动画相比，CSS兼容性好，简单易维护。但 CSS 的灵活性相比较差，调试困难。
+  </blockquote></details></div> <div><h3 id="_11-对盒模型的理解"><a href="#_11-对盒模型的理解" class="header-anchor">#</a> 11. 对盒模型的理解</h3> <details><summary>点击查看答案</summary> <blockquote>
+    盒模型都是由四个部分组成的，分别是margin、border、padding和content。
+  </blockquote> <p></p><div class="language- extra-class"><pre><code>标准盒模型的width和height属性的范围只包含了content，
+
+IE盒模型的width和height属性的范围包含了border、padding和content。
+</code></pre></div> <p></p> <p></p><div class="language- extra-class"><pre><code>box-sizeing: content-box表示标准盒模型（默认值）
+
+box-sizeing: border-box表示IE盒模型（怪异盒模型）
+</code></pre></div> <p></p></details></div> <div><h3 id="_12-为什么有时候用translate来改变位置而不是定位"><a href="#_12-为什么有时候用translate来改变位置而不是定位" class="header-anchor">#</a> 12. 为什么有时候⽤translate来改变位置⽽不是定位？</h3> <details><summary>点击查看答案</summary> <blockquote>
+    translate 是 transform 属性的⼀个值。改变transform或opacity不会触发浏览器重新布局（reflow）或重绘（repaint），只会触发复合（compositions）。⽽改变绝对定位会触发重新布局，进⽽触发重绘和复合。transform使浏览器为元素创建⼀个 GPU 图层，但改变绝对定位会使⽤到 CPU。 因此translate()更⾼效，可以缩短平滑动画的绘制时间。 ⽽translate改变位置时，元素依然会占据其原始空间，绝对定位就不会发⽣这种情况。
+  </blockquote></details></div> <div><h3 id="_13-li-与-li-之间有看不见的空白间隔是什么原因引起的-如何解决"><a href="#_13-li-与-li-之间有看不见的空白间隔是什么原因引起的-如何解决" class="header-anchor">#</a> 13. li 与 li 之间有看不见的空白间隔是什么原因引起的？如何解决？</h3> <details><summary>点击查看答案</summary> <blockquote>
+    浏览器会把inline内联元素间的空白字符（空格、换行、Tab等）渲染成一个空格。为了美观，通常是一个li放在一行，这导致li换行后产生换行字符，它变成一个空格，占用了一个字符的宽度。
+  </blockquote> <p></p><div class="language- extra-class"><pre><code>解决办法：
+
+1）为&lt;li&gt;设置float:left。不足：有些容器是不能设置浮动，如左右切换的焦点图等。
+
+2）将所有&lt;li&gt;写在同一行。不足：代码不美观。
+
+3）将&lt;ul&gt;内的字符尺寸直接设为0，即font-size:0。不足：&lt;ul&gt;中的其他字符尺寸也被设为0，需要额外重新设定其他字符尺寸，且在Safari浏览器依然会出现空白间隔。
+
+4）消除&lt;ul&gt;的字符间隔letter-spacing:-8px，不足：这也设置了&lt;li&gt;内的字符间隔，因此需要将&lt;li&gt;内的字符间隔设为默认letter-spacing:normal。
+</code></pre></div> <p></p></details></div> <div><h3 id="_14-css3中有哪些新特性"><a href="#_14-css3中有哪些新特性" class="header-anchor">#</a> 14. CSS3中有哪些新特性？</h3> <details><summary>点击查看答案</summary> <p></p><div class="language- extra-class"><pre><code>新增各种CSS选择器 （: not(.input)：所有 class 不是“input”的节点）
+圆角 （border-radius:8px）
+多列布局 （multi-column layout）
+阴影和反射 （Shadoweflect）
+文字特效 （text-shadow）
+文字渲染 （Text-decoration）
+线性渐变 （gradient）
+旋转 （transform）
+增加了旋转,缩放,定位,倾斜,动画,多背景
+</code></pre></div> <p></p></details></div> <div><h3 id="_15-对-csssprites-的理解"><a href="#_15-对-csssprites-的理解" class="header-anchor">#</a> 15. 对 CSSSprites 的理解</h3> <details><summary>点击查看答案</summary> <p>
+    CSSSprites（精灵图），将一个页面涉及到的所有图片都包含到一张大图中去，然后利用CSS的 background-image，background-repeat，background-position属性的组合进行背景定位。
+  </p></details></div> <div><h3 id="_16-css-优化和提高性能的方法有哪些"><a href="#_16-css-优化和提高性能的方法有哪些" class="header-anchor">#</a> 16. CSS 优化和提高性能的方法有哪些？</h3> <details><summary>点击查看答案</summary> <blockquote>加载性能：</blockquote> <p></p><div class="language- extra-class"><pre><code>（1）css压缩：将写好的css进行打包压缩，可以减小文件体积。
+（2）css单一样式：当需要下边距和左边距的时候，很多时候会选择使用 margin:top 0 bottom 0；但margin-bottom:bottom;margin-left:left;执行效率会更高。
+（3）减少使用@import，建议使用link，因为后者在页面加载时一起加载，前者是等待页面加载完成之后再进行加载。
+</code></pre></div> <p></p> <blockquote>选择器性能：</blockquote> <p></p><div class="language- extra-class"><pre><code>（1）关键选择器（key selector）。选择器的最后面的部分为关键选择器（即用来匹配目标元素的部分）。CSS选择符是从右到左进行匹配的。当使用后代选择器的时候，浏览器会遍历所有子元素来确定是否是指定的元素等等；
+（2）如果规则拥有ID选择器作为其关键选择器，则不要为规则增加标签。过滤掉无关的规则（这样样式系统就不会浪费时间去匹配它们了）。
+（3）避免使用通配规则，如*{}计算次数惊人，只对需要用到的元素进行选择。
+（4）尽量少的去对标签进行选择，而是用class。
+（5）尽量少的去使用后代选择器，降低选择器的权重值。后代选择器的开销是最高的，尽量将选择器的深度降到最低，最高不要超过三层，更多的使用类来关联每一个标签元素。
+（6）了解哪些属性是可以通过继承而来的，然后避免对这些属性重复指定规则。
+</code></pre></div> <p></p> <blockquote>渲染性能：</blockquote> <p></p><div class="language- extra-class"><pre><code>（1）慎重使用高性能属性：浮动、定位。
+（2）尽量减少页面重排、重绘。
+（3）去除空规则：｛｝。空规则的产生原因一般来说是为了预留样式。去除这些空规则无疑能减少css文档体积。
+（4）属性值为0时，不加单位。
+（5）属性值为浮动小数0.**，可以省略小数点之前的0。
+（6）标准化各种浏览器前缀：带浏览器前缀的在前。标准属性在后。
+（7）不使用@import前缀，它会影响css的加载速度。
+（8）选择器优化嵌套，尽量避免层级过深。
+（9）css雪碧图，同一页面相近部分的小图标，方便使用，减少页面的请求次数，但是同时图片本身会变大，使用时，优劣考虑清楚，再使用。
+（10）正确使用display的属性，由于display的作用，某些样式组合会无效，徒增样式体积的同时也影响解析性能。
+（11）不滥用web字体。对于中文网站来说WebFonts可能很陌生，国外却很流行。web fonts通常体积庞大，而且一些浏览器在下载web fonts时会阻塞页面渲染损伤性能。
+</code></pre></div> <p></p> <blockquote>可维护性、健壮性：</blockquote> <p></p><div class="language- extra-class"><pre><code>（1）将具有相同属性的样式抽离出来，整合并通过class在页面中进行使用，提高css的可维护性。
+（2）样式与内容分离：将css代码定义到外部css中。
+</code></pre></div> <p></p></details></div> <div><h3 id="_17-css预处理器-后处理器是什么-为什么要使用它们"><a href="#_17-css预处理器-后处理器是什么-为什么要使用它们" class="header-anchor">#</a> 17.CSS预处理器/后处理器是什么？为什么要使用它们？</h3> <details><summary>点击查看答案</summary> <blockquote>
+    预处理器， 如：less，sass，stylus，用来预编译sass或者less，增加了css代码的复用性。层级，mixin， 变量，循环， 函数等对编写以及开发UI组件都极为方便。
+  </blockquote> <blockquote>
+    后处理器， 如： postCss，通常是在完成的样式表中根据css规范处理css，让其更加有效。目前最常做的是给css属性添加浏览器私有前缀，实现跨浏览器兼容性的问题。
+  </blockquote> <p></p><div class="language- extra-class"><pre><code>使用原因：
+
+结构清晰， 便于扩展
+可以很方便的屏蔽浏览器私有语法的差异
+可以轻松实现多重继承
+完美的兼容了CSS代码，可以应用到老项目中
+</code></pre></div> <p></p></details></div> <div><h3 id="_18-before-和-after-的双冒号和单冒号有什么区别"><a href="#_18-before-和-after-的双冒号和单冒号有什么区别" class="header-anchor">#</a> 18.::before 和 :after 的双冒号和单冒号有什么区别？</h3> <details><summary>点击查看答案</summary> <blockquote>
+   冒号(:)用于CSS3伪类，双冒号(::)用于CSS3伪元素。 （2）::before就是以一个子元素的存在，定义在元素主体内容之前的一个伪元素。并不存在于dom之中，只存在在页面之中。
+  </blockquote></details></div> <div><h3 id="_19-display-inline-block-什么时候会显示间隙"><a href="#_19-display-inline-block-什么时候会显示间隙" class="header-anchor">#</a> 19.display:inline-block 什么时候会显示间隙？</h3> <details><summary>点击查看答案</summary> <p></p><div class="language- extra-class"><pre><code>有空格时会有间隙，可以删除空格解决；
+
+margin正值时，可以让margin使用负值解决；
+
+使用font-size时，可通过设置font-size:0、letter-spacing、word-spacing解决；
+</code></pre></div> <p></p></details></div> <div><h3 id="_20-对-css-工程化的理解"><a href="#_20-对-css-工程化的理解" class="header-anchor">#</a> 20.对 CSS 工程化的理解？</h3> <details><summary>点击查看答案</summary> <p></p><div class="language- extra-class"><pre><code>宏观设计：CSS 代码如何组织、如何拆分、模块结构怎样设计？
+
+编码优化：怎样写出更好的 CSS？
+
+构建：如何处理我的 CSS，才能让它的打包结果最优？
+
+可维护性：代码写完了，如何最小化它后续的变更成本？如何确保任何一个同事都能轻松接手？
+</code></pre></div> <p></p></details></div> <div><h3 id="_21-如何判断元素是否到达可视区域"><a href="#_21-如何判断元素是否到达可视区域" class="header-anchor">#</a> 21. 如何判断元素是否到达可视区域</h3> <details><summary>点击查看答案</summary> <p></p><div class="language- extra-class"><pre><code>window.innerHeight 是浏览器可视区的高度；
+
+document.body.scrollTop || document.documentElement.scrollTop 是浏览器滚动的过的距离；
+
+imgs.offsetTop 是元素顶部距离文档顶部的高度（包括滚动条的距离）；
+
+内容达到显示区域的：img.offsetTop &lt; window.innerHeight + document.body.scrollTop;
+</code></pre></div> <p></p></details></div> <div><h3 id="_22-z-index属性在什么情况下会失效"><a href="#_22-z-index属性在什么情况下会失效" class="header-anchor">#</a> 22. z-index属性在什么情况下会失效</h3> <details><summary>点击查看答案</summary> <p></p><div class="language- extra-class"><pre><code>父元素position为relative时，子元素的z-index失效。解决：父元素position改为absolute或static；
+
+元素没有设置position属性为非static属性。解决：设置该元素的position属性为relative，absolute或是fixed中的一种；
+
+元素在设置z-index的同时还设置了float浮动。解决：float去除，改为display：inline-block；
+</code></pre></div> <p></p></details></div> <div><h3 id="_23-px、em、rem的区别及使用场景"><a href="#_23-px、em、rem的区别及使用场景" class="header-anchor">#</a> 23. px、em、rem的区别及使用场景</h3> <details><summary>点击查看答案</summary> <p></p><div class="language- extra-class"><pre><code>px是固定的像素，一旦设置了就无法因为适应页面大小而改变。
+
+em和rem相对于px更具有灵活性，他们是相对长度单位，其长度不是固定的，更适用于响应式布局。
+
+em是相对于其父元素来设置字体大小，这样就会存在一个问题，进行任何元素设置，都有可能需要知道他父元素的大小。而rem是相对于根元素，这样就意味着，只需要在根元素确定一个参考值。
+</code></pre></div> <p></p></details></div> <div><h3 id="_24-如何根据设计稿进行移动端适配"><a href="#_24-如何根据设计稿进行移动端适配" class="header-anchor">#</a> 24. 如何根据设计稿进行移动端适配？</h3> <details><summary>点击查看答案</summary> <p></p><div class="language- extra-class"><pre><code>适配不同像素密度， 针对不同的像素密度，使用 CSS 媒体查询，选择不同精度的图片，以保证图片不会失真；
+
+适配不同屏幕大小， 由于不同的屏幕有着不同的逻辑像素大小，所以如果直接使用 px 作为开发单位，会使得开发的页面在某一款手机上可以准确显示，但是在另一款手机上就会失真。为了适配不同屏幕的大小，应按照比例来还原设计稿的内容。
+
+为了能让页面的尺寸自适应，可以使用 rem，em，vw，vh 等相对单位。
+</code></pre></div> <p></p></details></div> <div><h3 id="_25-对flex布局的理解及其使用场景"><a href="#_25-对flex布局的理解及其使用场景" class="header-anchor">#</a> 25. 对Flex布局的理解及其使用场景</h3> <details><summary>点击查看答案</summary> <blockquote>
+    Flex是FlexibleBox的缩写，意为&quot;弹性布局&quot;，用来为盒状模型提供最大的灵活性。任何一个容器都可以指定为Flex布局。行内元素也可以使用Flex布局。注意，设为Flex布局以后，子元素的float、clear和vertical-align属性将失效。采用Flex布局的元素，称为Flex容器（flex container），简称&quot;容器&quot;。它的所有子元素自动成为容器成员，称为Flex项目（flex item），简称&quot;项目&quot;。容器默认存在两根轴：水平的主轴（main axis）和垂直的交叉轴（cross axis），项目默认沿水平主轴排列。
+  </blockquote> <p></p><div class="language- extra-class"><pre><code>flex-direction属性决定主轴的方向（即项目的排列方向）。
+
+flex-wrap属性定义，如果一条轴线排不下，如何换行。
+
+flex-flow属性是flex-direction属性和flex-wrap属性的简写形式，默认值为row nowrap。
+
+justify-content属性定义了项目在主轴上的对齐方式。
+
+align-items属性定义项目在交叉轴上如何对齐。
+
+align-content属性定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用。
+</code></pre></div> <p></p></details></div> <div><h3 id="_26-响应式设计的概念及基本原理"><a href="#_26-响应式设计的概念及基本原理" class="header-anchor">#</a> 26. 响应式设计的概念及基本原理</h3> <details><summary>点击查看答案</summary> <blockquote>
+    响应式网站设计（Responsive Web design）是一个网站能够兼容多个终端，而不是为每一个终端做一个特定的版本。
+  </blockquote></details></div> <div><h3 id="_27-为什么需要清除浮动-清除浮动的方式"><a href="#_27-为什么需要清除浮动-清除浮动的方式" class="header-anchor">#</a> 27. 为什么需要清除浮动？清除浮动的方式</h3> <details><summary>点击查看答案</summary> <blockquote>
+    浮动的定义： 非IE浏览器下，容器不设高度且子元素浮动时，容器高度不能被内容撑开。 此时，内容会溢出到容器外面而影响布局。这种现象被称为浮动（溢出）。
+  </blockquote> <p></p><div class="language- extra-class"><pre><code>浮动带来的问题：
+
+  浮动元素脱离文档流，不占据空间（引起“高度塌陷”现象）
+
+  浮动元素碰到包含它的边框或者其他浮动元素的边框停留
+
+  父元素的高度无法被撑开，影响与父元素同级的元素
+
+  与浮动元素同级的非浮动元素会跟随其后
+
+  若浮动的元素不是第一个元素，则该元素之前的元素也要浮动，否则会影响页面的显示结构
+</code></pre></div> <p></p> <p></p><div class="language- extra-class"><pre><code>清除浮动的方式：
+
+  给父级div定义height属性
+
+  最后一个浮动元素之后添加一个空的div标签，并添加clear:both样式
+
+  包含浮动元素的父级标签添加overflow:hidden或者overflow:auto
+
+  使用 :after 伪元素。由于IE6-7不支持 :after，使用 zoom:1 触发 hasLayout**
+</code></pre></div> <p></p></details></div> <h3 id="_28-对bfc的理解-如何创建bfc"><a href="#_28-对bfc的理解-如何创建bfc" class="header-anchor">#</a> 28.  对BFC的理解，如何创建BFC</h3> <details><summary>点击查看答案</summary> <blockquote>
+    块格式化上下文（Block Formatting Context，BFC）是Web页面的可视化CSS渲染的一部分，是布局过程中生成块级盒子的区域，也是浮动元素与其他元素的交互限定区域。
+  </blockquote> <blockquote>
+  通俗来讲：BFC是一个独立的布局环境，可以理解为一个容器，在这个容器中按照一定规则进行物品摆放，并且不会影响其它环境中的物品。如果一个元素符合触发BFC的条件，则BFC中的元素布局不受外部影响。
+  </blockquote> <p></p><div class="language- extra-class"><pre><code>创建BFC的条件：
+
+  根元素：body；
+
+  元素设置浮动：float 除 none 以外的值；
+
+  元素设置绝对定位：position (absolute、fixed)；
+
+  display 值为：inline-block、table-cell、table-caption、flex等；
+
+  overflow 值为：hidden、auto、scroll；
+</code></pre></div> <p></p> <p></p><div class="language- extra-class"><pre><code>BFC的特点：
+
+  垂直方向上，自上而下排列，和文档流的排列方式一致。
+
+  在BFC中上下相邻的两个容器的margin会重叠
+
+  计算BFC的高度时，需要计算浮动元素的高度
+
+  BFC区域不会与浮动的容器发生重叠
+
+  BFC是独立的容器，容器内部元素不会影响外部元素
+
+  每个元素的左margin值和容器的左border相接触
+</code></pre></div> <p></p> <p></p><div class="language- extra-class"><pre><code>BFC的作用：
+
+  解决margin的重叠问题：由于BFC是一个独立的区域，内部的元素和外部的元素互不影响，将两个元素变为两个BFC，就解决了margin重叠的问题。
+
+  解决高度塌陷的问题：在对子元素设置浮动后，父元素会发生高度塌陷，也就是父元素的高度变为0。解决这个问题，只需要把父元素变成一个BFC。常用的办法是给父元素设置overflow:hidden。
+
+  创建自适应两栏布局：可以用来创建自适应两栏布局：左边的宽度固定，右边的宽度自适应。
+</code></pre></div> <p></p></details> <div><h3 id="_29-什么是margin重叠问题-如何解决"><a href="#_29-什么是margin重叠问题-如何解决" class="header-anchor">#</a> 29. 什么是margin重叠问题？如何解决？</h3> <details><summary>点击查看答案</summary> <blockquote>
+    两个块级元素的上外边距和下外边距可能会合并（折叠）为一个外边距，其大小会取其中外边距值大的那个，这种行为就是外边距折叠。需要注意的是，浮动的元素和绝对定位这种脱离文档流的元素的外边距不会折叠。重叠只会出现在垂直方向。
+  </blockquote> <p></p><div class="language- extra-class"><pre><code>解决办法：
+
+  底部元素变为行内盒子：display: inline-block
+
+  底部元素设置浮动：float
+
+  底部元素的position的值为absolute/fixed
+
+  父元素加入：overflow: hidden
+
+  父元素添加透明边框：border:1px solid transparent
+
+  子元素变为行内盒子：display: inline-block
+
+  子元素加入浮动属性或定位
+</code></pre></div> <p></p></details></div> <div><h3 id="_30-display-none与visibility-hidden的区别"><a href="#_30-display-none与visibility-hidden的区别" class="header-anchor">#</a> 30. display:none与visibility：hidden的区别？</h3> <details><summary>点击查看答案</summary> <blockquote>
+    display：none 不显示对应的元素，在文档布局中不再分配空间（回流+重绘）
+<div class="language- extra-class"><pre><code>visibility：hidden 隐藏对应元素，在文档布局中仍保留原来的空间（重绘）
+</code></pre></div></blockquote></details></div> <div><h3 id="_31-css优化、提高性能的方法有哪些"><a href="#_31-css优化、提高性能的方法有哪些" class="header-anchor">#</a> 31. CSS优化、提高性能的方法有哪些？</h3> <details><summary>点击查看答案</summary> <p></p><div class="language- extra-class"><pre><code>  避免过度约束
+    
+  避免后代选择符
+
+  避免链式选择符
+
+  使用紧凑的语法
+
+  避免不必要的命名空间
+
+  避免不必要的重复
+
+  最好使用表示语义的名字。一个好的类名应该是描述他是什么而不是像什么
+
+  避免！important，可以选择其他选择器
+
+  尽可能的精简规则，你可以合并不同类里的重复规则
+</code></pre></div> <p></p></details></div> <div><h3 id="_32-浏览器是怎样解析css选择器的"><a href="#_32-浏览器是怎样解析css选择器的" class="header-anchor">#</a> 32. 浏览器是怎样解析CSS选择器的？</h3> <details><summary>点击查看答案</summary> <blockquote><div class="language- extra-class"><pre><code>CSS选择器的解析是从右向左解析的。若从左向右的匹配，发现不符合规则，需要进行回溯，会损失很多性能。若从右向左匹配，先找到所有的最右节点，对于每一个节点，向上寻找其父节点直到找到根元素或满足条件的匹配规则，则结束这个分支的遍历。两种匹配规则的性能差别很大，是因为从右向左的匹配在第一步就筛选掉了大量的不符合条件的最右节点（叶子节点），而从左向右的匹配规则的性能都浪费在了失败的查找上面。
+
+而在 CSS 解析完毕后，需要将解析的结果与 DOM Tree 的内容一起进行分析建立一棵 Render Tree，最终用来进行绘图。在建立 Render Tree 时（WebKit 中的「Attachment」过程），浏览器就要为每个 DOM Tree 中的元素根据 CSS 的解析结果（Style Rules）来确定生成怎样的 Render Tree。
+</code></pre></div></blockquote></details></div> <div><h3 id="_33-让页面里的字体变清晰-变细用css怎么做"><a href="#_33-让页面里的字体变清晰-变细用css怎么做" class="header-anchor">#</a> 33. 让页面里的字体变清晰，变细用CSS怎么做？</h3> <details><summary>点击查看答案</summary> <blockquote>
+    -webkit-font-smoothing在window系统下没有起作用，但是在IOS设备上起作用-webkit-font-smoothing：antialiased是最佳的，灰度平滑。
+  </blockquote></details></div> <div><h3 id="_34-position-fixed-在android下无效怎么处理"><a href="#_34-position-fixed-在android下无效怎么处理" class="header-anchor">#</a> 34. position:fixed;在android下无效怎么处理？</h3> <details><summary>点击查看答案</summary> <blockquote><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"></blockquote></details></div> <div><h3 id="_35-如果需要手动写动画-你认为最小时间间隔是多久-为什么"><a href="#_35-如果需要手动写动画-你认为最小时间间隔是多久-为什么" class="header-anchor">#</a> 35. 如果需要手动写动画，你认为最小时间间隔是多久，为什么？</h3> <details><summary>点击查看答案</summary> <blockquote>
+   多数显示器默认频率是60Hz，即1秒刷新60次，所以理论上最小间隔为1/60＊1000ms ＝ 16.7ms。
+  </blockquote></details></div> <h3 id="_36-style标签写在body后与body前有什么区别"><a href="#_36-style标签写在body后与body前有什么区别" class="header-anchor">#</a> 36. style标签写在body后与body前有什么区别？</h3> <details><summary>点击查看答案</summary> <blockquote>
+   页面加载自上而下 当然是先加载样式。写在body标签后由于浏览器以逐行方式对HTML文档进行解析，当解析到写在尾部的样式表（外联或写在style标签）会导致浏览器停止之前的渲染，等待加载且解析样式表完成之后重新渲染，在windows的IE下可能会出现FOUC现象（即样式失效导致的页面闪烁问题）
+  </blockquote></details> <h3 id="_37-如何防止css阻塞渲染"><a href="#_37-如何防止css阻塞渲染" class="header-anchor">#</a> 37. 如何防止CSS阻塞渲染</h3> <details><summary>点击查看答案</summary> <blockquote>
+   CSS 阻塞渲染是指浏览器在解析和应用 CSS 文件时，会阻塞页面的渲染过程，直到 CSS 文件完全加载和解析完成。这可能会导致页面在 CSS 加载完成之前出现“白屏”或“无样式内容”的情况。为了防止 CSS 阻塞渲染，可以采取以下几种方法：
+  </blockquote> <p></p><div class="language- extra-class"><pre><code>1. 使用媒体查询
+
+  &lt;!-- 不会阻塞渲染 --&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot; media=&quot;print&quot;&gt;
+
+  &lt;!-- 会阻塞渲染 --&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot; media=&quot;screen&quot;&gt;
+
+2. 内联关键 CSS
+
+3. 异步加载 CSS
+
+4. 使用 rel=&quot;preload&quot;
+
+5. 优化 CSS 文件
+
+6. 使用 &lt;noscript&gt; 标签
+</code></pre></div> <p></p></details></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.7e99d4b7.js" defer></script><script src="/assets/js/2.8c310171.js" defer></script><script src="/assets/js/1.99cb381e.js" defer></script><script src="/assets/js/23.b5a85e1f.js" defer></script>
+  </body>
+</html>
